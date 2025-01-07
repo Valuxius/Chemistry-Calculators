@@ -1,4 +1,4 @@
-function getSignificantDigitCount(n) {
+function getSignificantDigitCount(n) { // THIS FUNCTION IS NOT MINE
   var vari = false
   for (var i = 0; i < String(n).length; i++) {
     if (String(n[i]) === ".") vari = true 
