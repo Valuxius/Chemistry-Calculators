@@ -1,7 +1,7 @@
 function combinedGasLaw(InitialPressure, InitialVolume, InitialTemp, FinalPressure, FinalVolume, FinalTemp, Mode, FinalUnit, InitialPressureUnit, InitialVolumeUnit, InitialTempUnit, FinalPressureUnit, FinalVolumeUnit, FinalTempUnit, PressureUnits, PressureUnitsConv, VolumeUnits, VolumeUnitsConv, TempUnits, TempUnitsConv) {
   var SF = []
   if (String(InitialPressure) === "Constant" || String(FinalPressure) === "Constant") {
-    InitialPressure = "1.00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    InitialPressure = "1.00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000" //sets to a value with many significant figures so it doesn't interfere with significant figure counts
     FinalPressure = "1.00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
   }
   if (String(InitialVolume) === "Constant" || String(FinalVolume) === "Constant") {
