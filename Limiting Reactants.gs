@@ -11,7 +11,6 @@ function LimitingReactants(Equation, Mode, SymbolsDatabase, MMDatabase, DCDataba
     var ProductsMM = []
     var ReactantsMM = []
     var SF = []
-    var index = -1
     var Moles = []
     var Results = []
     var LimitingReactant = ""
